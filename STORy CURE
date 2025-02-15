@@ -1,0 +1,72 @@
+``html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Cure - Mental Health Through Photography & Videography</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <header>
+        <h1>Story Cure</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stories.html">Stories</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Healing Through Shared Experiences</h2>
+            <p>Using photography and videography to raise awareness about mental health in Gulu, Uganda.</p>
+            <a href="stories.html" class="button">Share Your Story</a>
+        </section>
+
+        <section id="featured-stories">
+            <h2>Featured Stories</h2>
+            <div class="story">
+                <img src="placeholder-image.jpg" alt="Story 1">
+                <h3>Title of Story 1</h3>
+                <p>Brief excerpt of the story...</p>
+                <a href="story1.html">Read More</a>
+            </div>
+            <div class="story">
+                <img src="placeholder-image.jpg" alt="Story 2">
+                <h3>Title of Story 2</h3>
+                <p>Brief excerpt of the story...</p>
+                <a href="story2.html">Read More</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Story Cure - Made with Love in Gulu</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
+```
+
+```css
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* Green color for hope and healing */
+    color: white;
